@@ -93,11 +93,11 @@ Ela possui duas responsabilidades principais:
 
 Durante o cadastro:
 
-1. Recebe os dados enviados pela requisição;
-2. Gera uma Hash da senha utilizando Flask-Bcrypt;
-3. Converte a Hash para String (`decode("utf-8")`);
-4. Salva o usuário no banco de dados;
-5. Retorna o objeto cadastrado.
+Recebe os dados enviados pela requisição;
+Gera uma Hash da senha utilizando Flask-Bcrypt;
+Converte a Hash para String (`decode("utf-8")`);
+Salva o usuário no banco de dados;
+Retorna o objeto cadastrado.
 
 Exemplo da lógica utilizada:
 
