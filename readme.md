@@ -49,7 +49,7 @@ USUARIOS/
 │
 ├── extensions.py
 ├── app.py
-└── usuarios.db
+
 ```
 
 ---
